@@ -78,9 +78,6 @@ vim.api.nvim_set_hl(0, "Comment", { fg = "#888888", bg = "NONE" })
 vim.api.nvim_set_hl(0, "@comment", { fg = "#888888", bg = "NONE" })
 
 -- Configure options before loading plugins
--- set clipboard to use system clipboard
-vim.opt.clipboard = "unnamedplus"
-
 -- set file line number to be absolute
 vim.opt.relativenumber = false
 vim.opt.number = true
