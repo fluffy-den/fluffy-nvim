@@ -84,6 +84,9 @@ vim.opt.number = true
 
 -- soft wrap lines
 vim.opt.wrap = true
+vim.opt.equalalways = true
+vim.opt.splitright = true
+vim.opt.splitbelow = true
 vim.opt.linebreak = true
 vim.opt.breakindent = true
 vim.opt.showbreak = "↪ "
